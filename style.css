@@ -10,6 +10,7 @@
   overflow-x: hidden;
   padding-top: 20px;
   display: block; /* Por defecto, se muestra la barra lateral */
+  border-right: #ffffff solid 2px;
 }
 
 .sidebar .navbar-brand {
@@ -50,6 +51,10 @@ h1 {
 .seccion-oscura {
   color: black;
   background-color: #E5edfa;
+}
+.seccion-footer {
+  color: white;
+  background-color: #040b14;
 }
 
 .seccion-clara {
@@ -331,6 +336,7 @@ h1 {
   height: 150px;
   width: 150px;
   margin: 10px 10px 20px 10px;
+  border: 2px solid #149ddd;
 }
 
 .testimonio-texto {
@@ -349,7 +355,7 @@ h1 {
   margin-bottom: 0;
 }
 
-.testimonio-footer .cliente {
+.testimonio-footer .persona {
   font-size: 1.2rem;
 }
 
@@ -368,7 +374,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #149ddd;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -385,10 +391,10 @@ h1 {
 }
 
 .contacto button {
-  color: white;
+  color: #040b14;
   font-weight: bold;
-  background-color: transparent;
-  border: 2px solid white;
+  background-color: white;
+  border: 2px solid ;
   padding: 1.25em 2em;
   margin: 10px;
   border-radius: 100px;
@@ -396,18 +402,18 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
-  color: black;
+  background-color: #040b14;
+  color: white;
 }
 
 .contacto button i {
-  color: white;
+  color: black;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
 
 .contacto button:hover i {
-  color: black;
+  color: white;
 }
 
 /* Pie de pagina (footer) */
