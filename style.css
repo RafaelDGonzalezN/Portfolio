@@ -65,7 +65,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: black;
 }
 
 .seccion-texto {
@@ -211,7 +211,7 @@ h1 {
 }
 
 .proyectos-contenedor {
-  padding-top: 60px;
+  padding-top: 10px;
   margin-bottom: 40px;
 }
 
@@ -251,6 +251,57 @@ h1 {
   color: black;
   font-size: 60px;
   margin: 10px;
+}
+
+/* Modales*/
+
+.modal-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #040b14; 
+  color: #ffffff;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none; 
+}
+
+.modal-footer .btn {
+  background-color: #149ddd; /* Fondo azul para los botones */
+  color: #ffffff; /* Texto blanco */
+}
+
+.modal-footer .btn:hover {
+  background-color: #040b14; /* Color de fondo azul más oscuro al pasar el ratón */
+}
+
+.close {
+  color: #ffffff; /* Texto blanco */
+  opacity: 1; /* Opacidad completa */
+}
+
+.close:hover {
+  color: #ffffff; /* Texto blanco */
+  opacity: 0.75; /* Opacidad reducida al pasar el ratón */
+}
+
+/* Ajuste de tamaño de imagen dentro del modal */
+.modal-body img {
+  width: 400px; /* Ancho máximo igual al ancho del contenedor */
+  margin-left: 25px ;
+  border: 2px solid #149ddd;
+  margin-bottom: 10px;
 }
 
 /* Articulos */
