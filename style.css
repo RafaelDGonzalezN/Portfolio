@@ -304,23 +304,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Articulos */
-
-.articulos {
-  min-height: 500px;
-  padding: 30px;
-}
-
-.articulos .card {
-  width: 80%;
-  max-width: 600px;
-  margin: 20px;
-}
-
-.articulos .card-header {
-  font-weight: bold;
-}
-
 /* Testimonios */
 
 .testimonios {
@@ -529,5 +512,29 @@ footer {
 @media screen and (max-width: 767px) {
   .servicios {
     margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
+  }
+}
+@media (max-width: 576px) {
+  .modal-dialog {
+    margin: 0.5rem; /* Margen reducido en dispositivos móviles */
+  }
+
+  .modal-content {
+    border: none; /* Sin borde en dispositivos móviles */
+    border-radius: 0; /* Bordes cuadrados en dispositivos móviles */
+  }
+
+  .modal-header, .modal-footer {
+    padding: 10px 20px; /* Espaciado interno reducido en dispositivos móviles */
+  }
+
+  .modal-footer .close-btn {
+    font-size: 0.9rem; /* Tamaño de fuente reducido en dispositivos móviles */
+  }
+
+  .modal-body img {
+    max-width: 100%; /* Ancho máximo igual al ancho del contenedor en dispositivos móviles */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-left: 0px;
   }
 }
