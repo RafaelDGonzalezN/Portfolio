@@ -26,28 +26,67 @@
     <!-- Barra de navegacion -->
     <div class="sidebar">
       <div class="container-fluid">
-        <div class="navbar-brand">
-          <img class="photo"  src="https://res.cloudinary.com/dcposqieu/image/upload/v1710456635/Rafael%20Sin%20Fondo.png" alt="Logo de la página web">
+        <div class="side-brand">
+          <img class="photo" src="https://res.cloudinary.com/dcposqieu/image/upload/v1710456635/Rafael%20Sin%20Fondo.png" alt="Logo de la página web">
+          <h4>Rafael González</h4>
+          <div class="iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://github.com/RafaelDGonzalezN" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rafael-d-gonzalez-n/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UC_NrJzcYQoUzJ37NxSjEZEA" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="mailto:david.gnzlz.224@gmail.com" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-envelope-fill"></i>
+            </a>
+          </div>
         </div>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+        <ul class="side flex-column">
+          <li class="side-item">
+            <a class="side-link " aria-current="page" href="#hero">
+              <i class="bi bi-house"></i>
+              Inicio
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#proyectos">Proyectos</a>
+          <li class="side-item">
+            <a class="side-link" href="#sobre-mi">
+              <i class="bi bi-person"></i> Sobre mí
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimonios">Testimonios</a>
+          <li class="side-item">
+            <a class="side-link" href="#habilidades">
+              <i class="bi bi-bar-chart-steps"></i> Habilidades
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
+          <li class="side-item">
+            <a class="side-link" href="#servicios">
+              <i class="bi bi-file-text"></i> Servicios
+            </a>
+          </li>
+          <li class="side-item">
+            <a class="side-link" href="#proyectos">
+              <i class="bi bi-collection"></i> Proyectos
+            </a>
+          </li>
+          <li class="side-item">
+            <a class="side-link" href="#testimonios">
+              <i class="bi bi-people"></i> Testimonios
+            </a>
+          </li>
+          <li class="side-item">
+            <a class="side-link" href="#contacto">
+              <i class="bi bi-telephone"></i> Contacto
+            </a>
           </li>
         </ul>
       </div>
     </div>
 
     <!-- Seccion Hero -->
-    <section class="hero align-items-stretch" >
+    <section id="hero" class="hero align-items-stretch" >
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
         <h1>Rafael González</h1>
         <h2>Developer Web Full Stack</h2>
@@ -99,7 +138,7 @@
 </section>
 
 <!-- Habilidades -->
-<section class="habilidades seccion-clara">
+<section id = "habilidades" class="habilidades seccion-clara">
   <h2 class="seccion-titulo">Habilidades</h2>
   <div class="container text-center">
     <div class="row">
@@ -279,7 +318,7 @@
 </section>
 
     <!-- Servicios -->
-    <section class="servicios seccion-oscura">
+    <section id = "servicios" class="servicios seccion-oscura">
       <h2 class="seccion-titulo">Servicios</h2>
       <div class="container text-center">
         <div class="row">
