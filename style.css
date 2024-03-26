@@ -224,7 +224,8 @@ h1 {
   border-radius: 10px; 
   font-size: 20px; 
   text-decoration: none; 
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   transition: background-color 0.3s ease;
 }
 
@@ -487,11 +488,11 @@ h1 {
 }
 
 .testimonios .carousel {
-  max-width: 800px;
+  max-width: 80%;
 }
 
 .carousel-item {
-  height: 500px;
+  height: auto;
 }
 
 .carousel-item .container {
@@ -666,12 +667,18 @@ footer {
 
 @media screen and (max-width: 800px) {
   .testimonio-imagen {
-    height: 120px;
-    width: 120px;
+    height: 100px; /* Ajuste la altura de la imagen para pantallas aún más pequeñas */
+    width: 100px; /* Ajuste el ancho de la imagen para pantallas aún más pequeñas */
   }
 
   .testimonio-texto {
-    font-size: 18px;
+    font-size: 14px; /* Reduzca aún más el tamaño de la fuente para pantallas muy pequeñas */
+  }
+  .testimonios .carousel{
+    width: 100%;
+  }
+  .testimonio-texto {
+    width: 100%;
   }
 }
 
